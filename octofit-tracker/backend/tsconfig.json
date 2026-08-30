@@ -11,6 +11,13 @@
     "rootDir": "src",
     "resolveJsonModule": true
   },
+  "ts-node": {
+    "esm": true,
+    "experimentalEsm": true,
+    "compilerOptions": {
+      "module": "NodeNext"
+    }
+  },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "dist"]
 }
